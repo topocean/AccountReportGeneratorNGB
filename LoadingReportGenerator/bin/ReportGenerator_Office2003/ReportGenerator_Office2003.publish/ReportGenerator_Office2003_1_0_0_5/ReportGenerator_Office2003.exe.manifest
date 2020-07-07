@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="ReportGenerator_Office2003.exe" version="1.0.0.5" publicKeyToken="317a9fc4ef6cdcb1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="AnalysisServicesProject.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ReportGenerator_Office2003" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ReportGenerator_Office2003.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CGZipLibrary.dll" size="10240">
+      <assemblyIdentity name="Interop.CGZipLibrary" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EsGmxcOa7XgdSFRhmvdDaGi89+w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Excel.dll" size="1093632">
+      <assemblyIdentity name="Interop.Excel" version="1.5.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KkBRsjnlLXbXLz+0nkvv/JHvXrE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.VBIDE.dll" size="57344">
+      <assemblyIdentity name="Interop.VBIDE" version="5.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vqtk5krNzjvm5r7alINm+9PWiQI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="307200">
+      <assemblyIdentity name="MySql.Data" version="6.0.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>n18u7VLwwvx9ahmOp9dZGIoqqEQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReportGenerator_Office2003.exe" size="450560">
+      <assemblyIdentity name="ReportGenerator_Office2003" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>UHs3dOkhWwJ8+hV6YgmXZ/KSy4k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AnalysisServicesProject.ico" size="7270">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fpmXZXCdALIKqC3RJep4IRqEoyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ReportGenerator_Office2003.exe.config" size="4282">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8Ce7Mx6bUtCN/3W3d1FOOqOm0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Ben-PC\Ben" issuerKeyHash="bc713d096f8a9df453ad54fbc28e82399042229c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vHtrUUjZLr6I2Vj2U9Zg73q/y4c=</DigestValue></Reference></SignedInfo><SignatureValue>DevDMAYYHYppKmdZMm4ZDT9/mmw3CFU4MJ9F2cDEgjWhQH2HGJ3aQDxzGHgdovHNopHDRAHpTpSbFBMMQCaYoeLlbs4nC9jnsAAZ+gUr6UWTBoxInXTw/EI/RdNb5OI1S4hC32R/Hdc0P9v6juHyke1j0cvrNgeDDnsBwukel4E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6qpgg81l7OgtnubmetcLYNr87IQCXgLEEbN1Br3ALBFGzTToU8DMcr1xKXvSsWirxMAALi9QUnqhr9yKrcAbAK4RfJNpqEc84ntsIrZanr0H++UmzdNvhqsnZjWqUkhnkQ/Z7Su1xkN+Co/mGQRlaernnuMvD8RJRDJ9o72a/Bk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="87cbbf7aef60d653f658d988be2ed948516b7bbc" Description="" Url=""><as:assemblyIdentity name="ReportGenerator_Office2003.exe" version="1.0.0.5" publicKeyToken="317a9fc4ef6cdcb1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Ben-PC\Ben</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Mjd2IiNN00jZzUKcodOCb8QXglg=</DigestValue></Reference></SignedInfo><SignatureValue>FO6CHx7ypttgKHgI+BPktr0LUEW1C46OUh1X6qzwqHy2QK7zvpWMzJ4BTL7bxA8lW7VDXbN4HAJ4ku8bXh9ghCGIBPxfGNBjutamJdYNtU8Dk/MuL69rrSNJsAiFhSCRse5v1o6rLnSgfuR7ykm4V9RqlFVNlQJzQhIUsTffZOs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6qpgg81l7OgtnubmetcLYNr87IQCXgLEEbN1Br3ALBFGzTToU8DMcr1xKXvSsWirxMAALi9QUnqhr9yKrcAbAK4RfJNpqEc84ntsIrZanr0H++UmzdNvhqsnZjWqUkhnkQ/Z7Su1xkN+Co/mGQRlaernnuMvD8RJRDJ9o72a/Bk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQTNi6D3iwZ4dK1rH6vSd9IDANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAQgBlAG4ALQBQAEMAXABCAGUAbjAeFw0xMTEwMTcwNzQ0MjZaFw0xMjEwMTYxMzQ0MjZaMB8xHTAbBgNVBAMeFABCAGUAbgAtAFAAQwBcAEIAZQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqqmCDzWXs6C2e5uZ61wtg2vzshAJeAsQRs3UGvcAsEUbNNOhTwMxyvXEpe9KxaKvEwAAuL1BSeqGv3IqtwBsArhF8k2moRzzie2witlqevQf75SbN02+GqydmNapSSGeRD9ntK7XGQ34Kj+YZBGVp6uee4y8PxElEMn2jvZr8GQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBADcTOZeE8KCoqGR5Rg5a5oAbPY2Y2IGIDDisK/pxmInh8iuoLTh0gWo5Wj0vCLsQw4o5s3F732WtkoiosEAwtx6pgrMfGb5v8o7utD2/OWbb0v/EuE7+wXAtrBBSMYkPWyAg1srcDW/K+Yp2BZBjzLBv3lluf2Y07hN0pwDXxeRs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
